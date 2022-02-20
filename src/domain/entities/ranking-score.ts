@@ -1,7 +1,8 @@
 export type RankingScore = {
     player: Player
     score: number
-    heroes: Hero[]
+    heroes: Hero[],
+    matchDate: Date
 }
 
 type Player = {
